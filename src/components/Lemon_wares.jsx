@@ -57,12 +57,12 @@ const Lemon_wares = () => {
               <div
                 className={`${
                   isChecked ? "bg-[#FFE87A]" : "bg-[#B00000]"
-                } duration-300 rounded-[73px] w-[75px] 450:w-[93px] h-[35px] 450:h-[50px] p-[10px_9px]`}
+                } duration-300 rounded-[73px] w-[75px] xs_1:w-[93px] h-[35px] xs_1:h-[50px] p-[10px_9px]`}
               >
                 <div
-                  className={`absolute w-[22px] 450:w-[30px] h-[22px] 450:h-[30px] bg-white rounded-full shadow inset-y-0 top-[6px] 450:top-[10px] duration-300 ${
+                  className={`absolute w-[22px] xs_1:w-[30px] h-[22px] xs_1:h-[30px] bg-white rounded-full shadow inset-y-0 top-[6px] xs_1:top-[10px] duration-300 ${
                     isChecked
-                      ? " translate-x-[37px] 450:translate-x-[43px]"
+                      ? " translate-x-[37px] xs_1:translate-x-[43px]"
                       : "translate-x-0"
                   }`}
                 ></div>
@@ -163,7 +163,7 @@ const Lemon_wares = () => {
                   <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                     <Tick />
                     <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                      10GB Bandwidth
+                      2GB SSD
                     </p>
                   </div>
                   <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
@@ -239,7 +239,7 @@ const Lemon_wares = () => {
                   <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                     <Tick />
                     <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                      10GB Bandwidth
+                      2GB SSD
                     </p>
                   </div>
                   <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
@@ -315,7 +315,7 @@ const Lemon_wares = () => {
                   <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                     <Tick />
                     <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                      10GB Bandwidth
+                      2GB SSD
                     </p>
                   </div>
                   <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
@@ -394,7 +394,7 @@ const Lemon_wares = () => {
                 <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                   <Tick />
                   <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                    10GB Bandwidth
+                    2GB SSD
                   </p>
                 </div>
                 <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
@@ -468,7 +468,7 @@ const Lemon_wares = () => {
                 <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                   <Tick />
                   <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                    10GB Bandwidth
+                    2GB SSD
                   </p>
                 </div>
                 <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
@@ -542,7 +542,7 @@ const Lemon_wares = () => {
                 <div className="pt-[10px] lg:pt-[35px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">
                   <Tick />
                   <p className="text-[12px] md:text-[16px] font-ff-inter font-semibold leading-[24px] text-[#808080]">
-                    10GB Bandwidth
+                    2GB SSD
                   </p>
                 </div>
                 <div className="sm:pt-[6px] lg:pt-[15px] flex items-center gap-[8px] md:gap-[12px] lg:gap-[24px]">

@@ -49,26 +49,26 @@ const Hero_sec = () => {
               </div>
             </div>
             {first === "tab1" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] xs_1:text-[37px] sm:text-[43px] lg:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Hosting for Your Website
               </p>
             )}
             {first === "tab2" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] xs_1:text-[37px] sm:text-[43px] lg:text-[64px] font-bold leading-[45px] xs_1:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Domain for Your Website
               </p>
             )}
             {first === "tab3" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] xs_1:text-[37px] sm:text-[43px] lg:text-[64px] font-bold leading-[45px] xs_1:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web SEO for Your Website
               </p>
             )}
             {first === "tab4" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] xs_1:text-[37px] sm:text-[43px] lg:text-[64px] font-bold leading-[45px] xs_1:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Email for Your Website
               </p>
             )}
-            <p className=" mx-auto md:mx-0 text-center md:text-start font-inter md:pb-[60px] pb-[30px] text-[14px] 992:text-base font-normal text-[#808080] leading-[20px] min-[900px]:leading-[28px] tracking-[0.8px] max-w-[448px] mt-[10px] min-[900px]:mt-[34px]">
+            <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop md:pb-[60px] pb-[30px] text-[14px] lg:text-base font-normal text-[#808080] leading-[20px] min-[900px]:leading-[28px] tracking-[0.8px] max-w-[448px] mt-[10px] min-[900px]:mt-[34px]">
               Blazing fast web hosting for individuals and businesses of all
               sizes backed by 24x7x365 Support.
             </p>

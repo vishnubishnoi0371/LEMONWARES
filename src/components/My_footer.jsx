@@ -7,7 +7,7 @@ const My_footer = () => {
       <div className="max-w-[1244px] px-3 mx-auto lg:pt-[50px] ">
         <div className="flex flex-row justify-between flex-wrap  -mx-3 pb-[44px] pt-5 md:pt-[14px]">
           <div className=" lg:w-3/12 w-full px-3">
-            <img className="pb-[16px]" src={ftlogo} alt="" />
+            <img className="pb-[16px] cursor-pointer" src={ftlogo} alt="" />
             <p className="font-ff-inter  lg:max-w-[296px] font-normal pb-6 leading-[32px] not-italic text-[#E6E6E6] mb-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
@@ -95,7 +95,7 @@ const My_footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-1/2 xs_1:w-4/12 sm:w-3/12 px-3">
+              <div className="w-1/2 xs_1:w-4/12 sm:w-3/12 px-3 flex flex-col xs_1:items-center ">
                 <p className="text-base font-bold text-white pb-2 sm:pb-[15px] lg:pb-[24px] font-ff-inter leading-[24px] not-italic ">
                   Company
                 </p>
@@ -126,8 +126,8 @@ const My_footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-1/2 xs_1:w-4/12 sm:w-3/12 px-3">
-                <p className="text-base font-bold text-white pb-2 sm:pb-[15px] lg:pb-[24px] font-ff-inter leading-[24px] not-italic ">
+              <div className="w-1/2 xs_1:w-4/12 sm:w-3/12 px-3 flex flex-col md:items-center">
+                <p className="text-base font-bold md:ms-[-53px] flex items-start text-start text-white pb-2 sm:pb-[15px] lg:pb-[24px] font-ff-inter leading-[24px] not-italic ">
                   Help
                 </p>
                 <ul>
