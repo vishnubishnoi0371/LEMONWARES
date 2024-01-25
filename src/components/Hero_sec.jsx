@@ -74,14 +74,14 @@ const Hero_sec = () => {
             </p>
             <div className="flex items-center justify-center md:justify-start pb-[30px] md:pb-0  gap-[24px]">
               <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 bg-[#b00000] border-[#b00000] relative  border  group p-2 md:p-3">
-                <span class="relative z-10 font-ff-pop leading-[24px] text-white text-[14px] duration-500">
+                <span class="relative z-10 font-ff-pop font-normal leading-[24px] text-white text-[14px] duration-500">
                   Create an Account
                 </span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -right-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
               </button>
               <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 hover:border-[#b00000] relative  border border-black group p-2 md:p-3">
-                <span class="relative z-10 text-black font-ff-pop leading-[24px] group-hover:text-white text-[14px] duration-500">
+                <span class="relative z-10 text-black font-normal font-ff-pop leading-[24px] group-hover:text-white text-[14px] duration-500">
                   Choose your plan
                 </span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>

@@ -18,9 +18,9 @@ const Footer_card = () => {
             We're here to make your website awesome.
           </p>
 
-          <button className="p-[12px_16px_11px_16px] rounded-[8px] !bg-[#B00000]  shadow-[inset_18rem_0_0_0_#b00000] hover:shadow-[0_0_0_0_inset]  duration-500  border-[1px] border-[#b00000]  gap-2  text-center flex text-[14px] leading-[24px] font-ff-pop font-normal text-[#fff]">
-            <span>
-              <a href="">
+          <button class="gap-[9px] flex items-center cursor-pointer font-normal overflow-hidden rounded-[8px] bg-[#b00000] hover:shadow-btn_hv_1 duration-500 border-[#b00000] hover:border-[#e14949] relative  border  group p-2 md:p-3">
+            <span className="z-50">
+              <a href="https://web.whatsapp.com/" target="blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -35,7 +35,11 @@ const Footer_card = () => {
                 </svg>
               </a>
             </span>
-            Get in touch with us
+            <span class="relative z-10 font-normal  font-ff-pop leading-[24px] text-white text-[14px] duration-500">
+              Get in touch with us{" "}
+            </span>
+            <span class="absolute w-full h-full bg-[#e14949] border-[#e14949] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
+            <span class="absolute w-full h-full bg-[#e14949] border-[#e14949] -right-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
           </button>
           <span className="absolute bottom-[28%] left-[-1%]">
             <Triangle1 />

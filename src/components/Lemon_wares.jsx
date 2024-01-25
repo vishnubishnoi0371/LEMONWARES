@@ -56,7 +56,7 @@ const Lemon_wares = () => {
               />
               <div
                 className={`${
-                  isChecked ? "bg-[#FFE87A]" : "bg-[#B00000]"
+                  isChecked ? "bg-[#18191f]" : "bg-[#B00000]"
                 } duration-300 rounded-[73px] w-[75px] xs_1:w-[93px] h-[35px] xs_1:h-[50px] p-[10px_9px]`}
               >
                 <div
