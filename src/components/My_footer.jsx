@@ -3,7 +3,7 @@ import ftlogo from "../Assets/images/ft_logo.webp";
 import { Heart } from "../common_svg/icon";
 const My_footer = () => {
   return (
-    <div className="bg-[#B00000]">
+    <div id="contact" className="bg-[#B00000]">
       <div className="max-w-[1244px] px-3 mx-auto lg:pt-[50px] ">
         <div className="flex flex-row justify-between flex-wrap  -mx-3 pb-[44px] pt-5 md:pt-[14px]">
           <div className=" lg:w-3/12 w-full px-3">

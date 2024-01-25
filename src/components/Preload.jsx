@@ -14,7 +14,7 @@ const Preload = () => {
     const delay = setTimeout(() => {
       setLoad(true);
       document.body.style.overflow = "";
-    }, 2500);
+    }, 3500);
 
     return () => clearTimeout(delay);
   }, []);
@@ -25,19 +25,17 @@ const Preload = () => {
   return (
     <div>
       <div
-        className="preloader min-h-full z-50 min-w-full flex items-center justify-center  bg-gradient-to-r from-[#243040] to-[#8C939B] fixed top-0 start-0"
+        data-aos="zoon-in"
+        data-aos-duration="2500"
+        className="preloader min-h-full z-50 min-w-full flex items-center justify-center bg-[#f3d9d9]  fixed top-0 start-0"
         style={{ display: Load ? "none" : "block", zIndex: 80 }}
       >
-        <div class="waviy relative text-[40px] md:text-[60px] flex justify-center items-center m-auto h-screen">
-          <span className="--i:1 inline-block relative text-white uppercase">F</span>
-          <span className="--i:2 inline-block relative text-white uppercase">U</span>
-          <span className="--i:3 inline-block relative text-white uppercase">R</span>
-          <span className="--i:4 inline-block relative text-white uppercase">N</span>
-          <span className="--i:5 inline-block relative text-white uppercase">I</span>
-          <span className="--i:7 inline-block relative text-white uppercase">T</span>
-          <span className="--i:8 inline-block relative text-white uppercase">U</span>
-          <span className="--i:9 inline-block relative text-white uppercase">R</span>
-          <span className="--i:10 inline-block relative text-white uppercase">E</span>
+        <div class="waviy relative text-[40px] md:text-[120px] flex justify-center items-center m-auto h-screen">
+          <div
+            data-aos="zoon-in"
+            data-aos-duration="2000"
+            class="loader before:text-[#0000] before:content'LEMON_WARES' before:bg-inherit before:bg-clip-text font-semibold md:font-bold text-[30px] md:text-[50px] lg:text-[110px] font-ff-pop"
+          ></div>
         </div>
       </div>
     </div>

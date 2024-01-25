@@ -22,7 +22,7 @@ function App() {
       <Footer_card />
       <My_footer />
       <Backtotop/>
-      {/* <Preload/> */}
+      <Preload/>
     </div>
   );
 }

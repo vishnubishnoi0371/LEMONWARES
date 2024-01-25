@@ -12,7 +12,7 @@ module.exports = {
         box_sh_2: "  0px 10px 20px 0px rgba(41, 41, 42, 0.07)",
         box_sh_2_hv: "  0px 30px 20px 0px rgba(41, 41, 42, 0.07)",
         btn_hv_1: "  0px 0px 64px 0px rgba(176, 0, 0, 0.30)",
-        btn_hv_2: "  0px 0px 64px 0px rgba(41, 41, 42, 0.07)",
+        btn_hv_2: "  0px 0px 54px 0px rgba(41, 41, 42, 0.07)",
       },
       screens: {
         xs: "310px",

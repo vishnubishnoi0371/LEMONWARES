@@ -52,9 +52,8 @@ export const Small66 = () => {
 export const True1 = () => {
   return (
     <svg
+      className="md:w-[100px] md:h-[100px] w-[60px] h-[60px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="101"
-      height="100"
       viewBox="0 0 101 100"
       fill="none"
     >
@@ -125,9 +124,8 @@ export const True1 = () => {
 export const True2 = () => {
   return (
     <svg
+      className="md:w-[100px] md:h-[100px] w-[60px] h-[60px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="101"
-      height="100"
       viewBox="0 0 101 100"
       fill="none"
     >
@@ -158,9 +156,8 @@ export const True2 = () => {
 export const True3 = () => {
   return (
     <svg
+      className="md:w-[100px] md:h-[100px] w-[60px] h-[60px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="101"
-      height="100"
       viewBox="0 0 101 100"
       fill="none"
     >
@@ -311,9 +308,8 @@ export const Heart = () => {
 export const True4 = () => {
   return (
     <svg
+      className="md:w-[100px] md:h-[100px] w-[60px] h-[60px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="100"
-      height="100"
       viewBox="0 0 100 100"
       fill="none"
     >
@@ -356,7 +352,7 @@ export const True4 = () => {
 export const Story_66 = () => {
   return (
     <svg
-      className="lg:w-[143px] lg:h-[120px] w-[90px] h-[80px]"
+      className="lg:w-[143px] lg:h-[120px] w-[70px] h-[60px]"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 143 120"
       fill="none"

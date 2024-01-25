@@ -36,9 +36,8 @@ const True_cloud = () => {
     AOS.init({
       once: true,
       duration: 2000,
-    }
-    );
-  }, [])
+    });
+  }, []);
   const [first, setfirst] = useState();
   function index(first) {
     setfirst(!first);
@@ -67,14 +66,17 @@ const True_cloud = () => {
   ));
   return (
     <div>
-      <div className="max-w-[1285px] px-3 mx-auto py-[30px] sm:py-[50px] ">
+      <div
+        id="About"
+        className="max-w-[1285px] px-3 mx-auto py-[30px] sm:py-[50px] "
+      >
         <div className="flex flex-row items-center justify-center flex-wrap  -mx-3 overflow-hidden ">
           <div
             data-aos="fade-right"
             data-aos-duration="2000"
             className="md:w-1/2 lg:w-7/12 px-3"
           >
-            <h2 className="font-ff-inter text-center md:text-start text-[40px] lg:text-[48px] pb-4 lg:pb-7 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
+            <h2 className="font-ff-inter text-center md:text-start text-[30px] lg:text-[48px] pb-4 lg:pb-7 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
               True Cloud Web Hosting
             </h2>
             <p className=" text-[16px] pb-4 text-center md:text-start lg:text-lg font-ff-inter font-normal md:max-w-[573px] leading-[25px] lg:leading-[32px] text-[#18191f]">

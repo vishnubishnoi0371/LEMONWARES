@@ -13,9 +13,9 @@ const My_nav = () => {
   function view() {
     setfirst(!first);
     if (first === false) {
-      document.body.classList.add("overflow-hidden");
+      document.body.classList.add("ov_hidden");
     } else {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("ov_hidden");
     }
   }
   return (
@@ -25,7 +25,9 @@ const My_nav = () => {
           <div className="flex items-center cursor-pointer gap-[30px] lg:gap-[65px]">
             <img src={logo} alt="" />
             <li className="list-none hidden md:block cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
-              <a href="#locatio">Our Services</a>
+              <a onClick={view} href="#our">
+                Our Services
+              </a>
             </li>
           </div>
           <ul
@@ -37,7 +39,8 @@ const My_nav = () => {
               <span className="md:flex  items-center text-center gap-[25px] lg:gap-[33px]">
                 <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
                   <a
-                    href="#locatio"
+                    onClick={view}
+                    href="#About"
                     className="relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300"
                   >
                     About
@@ -45,7 +48,8 @@ const My_nav = () => {
                 </li>
                 <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
                   <a
-                    href="#locatio"
+                    onClick={view}
+                    href="#Blog"
                     className="relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300"
                   >
                     Blog&News
@@ -53,7 +57,8 @@ const My_nav = () => {
                 </li>
                 <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
                   <a
-                    href="#schdul"
+                    onClick={view}
+                    href="#contact"
                     className="relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300"
                   >
                     Contact
@@ -61,7 +66,8 @@ const My_nav = () => {
                 </li>
                 <li className="list-none mb-4 block md:hidden cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
                   <a
-                    href="#locatio"
+                    onClick={view}
+                    href="#our"
                     className="relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300"
                   >
                     Our Services
@@ -73,7 +79,8 @@ const My_nav = () => {
                   <li className="list-none mb-4 cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
                     {" "}
                     <a
-                      href="#Ticke"
+                      onClick={view}
+                      href="#story"
                       className="relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300"
                     >
                       Account
@@ -96,11 +103,14 @@ const My_nav = () => {
             </span>
           </ul>
           <div className="hidden xs_1:block">
-            <span className="flex  items-center justify-center gap-[30px] xl:gap-[60px]">
+            <span className="flex  items-center justify-center gap-[30px] xl:gap-[35px] md:me-[-55px]">
               <li className="list-none cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
                 {" "}
-                <a href="#Ticke">Account</a>
+                <a onClick={view} href="#story">
+                  Account
+                </a>
               </li>
+              <hr className="h-[20px] bg-[#c4c4c4] w-[1px]" />
               <li className="list-none flex items-center gap-2 cursor-pointer text-[#000000] text-[16px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
                 {" "}
                 <span>
@@ -129,7 +139,6 @@ const My_nav = () => {
               </svg>
             </label>
           </div>
-         
         </div>
       </div>
     </div>

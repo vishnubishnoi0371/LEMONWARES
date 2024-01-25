@@ -11,7 +11,10 @@ const Stories = () => {
   }, []);
   return (
     <div>
-      <div className="max-w-[1285px] px-3 mx-auto sm:py-[50px] overflow-hidden ">
+      <div
+        id="story"
+        className="max-w-[1285px] px-3 mx-auto sm:pt-[50px] md:pt-[0] lg:pt-[50px] overflow-hidden "
+      >
         <div className="flex flex-row items-center justify-center flex-wrap  -mx-3 ">
           <div className="sm:w-1/2 px-3">
             <div className="flex flex-col relative ">
@@ -20,9 +23,9 @@ const Stories = () => {
                 data-aos-duration="2000"
                 className="sm:flex  sm:flex-col sm:self-end"
               >
-                <p className="text-[40px]  text-center md:text-start lg:text-[48px] pt-[40px] self-end font-extrabold pb-2 font-ff-inter leading-[45px] lg:leading-[64px] text-[#18191f] max-w-[465px]">
+                <p className="text-[30px]  text-center md:text-start lg:text-[48px] pt-[40px] self-end font-extrabold pb-2 font-ff-inter leading-[35px] lg:leading-[64px] text-[#18191f] max-w-[465px]">
                   Real Stories from Real Customers
-                  <span className="absolute top-[-2%] md:top-[-8%] left-[2%] xl:left-[-18%]">
+                  <span className="absolute top-[8%] lg:top-[-8%] left-[2%] xl:left-[-18%]">
                     <Story_66 />
                   </span>
                 </p>
@@ -33,7 +36,7 @@ const Stories = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                className="shadow-box_sh_2 rounded-[8px] hover:shadow-crd_sh_1 duration-500  self-center sm:self-end max-w-[350px] px-5 lg:px-[32px] bg-[#fff] pt-2 pb-[20px] md:pb-[40px] lg:pb-[96px] mb-[32px] sm:mb-0 "
+                className="shadow-box_sh_2 rounded-[8px] hover:shadow-btn_hv_2 duration-500  self-center sm:self-end max-w-[350px] px-5 lg:px-[32px] bg-[#fff] pt-2 pb-[20px] md:pb-[40px] lg:pb-[96px] mb-[32px] sm:mb-0 "
               >
                 <img
                   className="ps-[28px] mb-[-25px] mt-[-28px] md:mt-0 md:mb-0"
@@ -61,8 +64,12 @@ const Stories = () => {
             </div>
           </div>
           <div className="sm:w-1/2 px-3 overflow-hidden md:pt-[40px] ">
-            <div data-aos="fade-left" data-aos-duration="2000">
-              <div className="shadow-box_sh_2 rounded-[8px] md:mt-[70px] duration-500 hover:shadow-crd_sh_1 max-w-[345px] px-5 lg:px-[32px] pt-2 lg:pt-[40px] bg-[#fff] pb-[14px] mb-[32px] ">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              className="md:pt-[50px]"
+            >
+              <div className="shadow-box_sh_2 rounded-[8px] md:mt-[70px] duration-500  hover:shadow-btn_hv_2 max-w-[345px] px-5 lg:px-[32px] pt-2 lg:pt-[40px] bg-[#fff] pb-[14px] mb-[32px] ">
                 <img className="ps-[28px] mb-3 md:mb-0" src={story2} alt="" />
 
                 <div className="flex gap-[16px]">
@@ -86,7 +93,7 @@ const Stories = () => {
               </div>
             </div>
             <div data-aos="fade-left" data-aos-duration="2000">
-              <div className="shadow-box_sh_2 rounded-[8px] duration-500 hover:shadow-crd_sh_1 max-w-[350px] px-5 lg:px-[32px] pt-3 lg:pt-[41px] bg-[#fff] pb-5 lg:pb-[32px] ">
+              <div className="shadow-box_sh_2 mb-4 md:mb-[50px] rounded-[8px] duration-500  hover:shadow-btn_hv_2 max-w-[350px] px-5 lg:px-[32px] pt-3 lg:pt-[41px] bg-[#fff] pb-5 lg:pb-[32px] ">
                 <img
                   className="ps-[28px] mt-[-14px] md:mt-0"
                   src={story3}

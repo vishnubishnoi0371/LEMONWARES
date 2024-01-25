@@ -20,7 +20,7 @@ const Nagerian = () => {
             data-aos-duration="2000"
             className="md:w-1/2 lg:w-6/12 px-3"
           >
-            <h2 className="font-ff-inter text-center md:text-start text-[38px] lg:text-[48px] pb-2 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
+            <h2 className="font-ff-inter text-center md:text-start text-[35px] lg:text-[48px] pb-2 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
               We serve over 100 Nigerian Websites{" "}
             </h2>
             <div className="flex items-center justify-center md:justify-start">
