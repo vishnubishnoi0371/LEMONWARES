@@ -42,7 +42,7 @@ const Lemon_wares = () => {
           data-aos-duration="2000"
           className=" flex items-center mx-auto xs_1:justify-center mt-[15px]  lg:mt-[57px] justify-between max-w-[300px] xs_1:max-w-[unset]"
         >
-          <p className=" font-poppins text-[20px] xs_1:text-[25px] font-normal leading-[25px] text-[#000] xs_1:mr-[31px]">
+          <p className=" font-ff-pop text-[20px] xs_1:text-[25px] font-normal leading-[25px] text-[#000] xs_1:mr-[31px]">
             Monthly
           </p>
           <label htmlFor="toggle" className="flex items-center cursor-pointer">
@@ -69,14 +69,14 @@ const Lemon_wares = () => {
               </div>
             </div>
           </label>
-          <p className=" font-poppins text-[20px] xs_1:text-[25px] font-normal leading-[25px] text-[#000] xs_1:ml-[26px] xs_1:mr-[17px]">
+          <p className=" font-ff-pop text-[20px] xs_1:text-[25px] font-normal leading-[25px] text-[#000] xs_1:ml-[26px] xs_1:mr-[17px]">
             Yearly
           </p>
-          <button className=" hidden xs_1:block     font-poppins text-[10px] leading-[9px] font-medium text-[#000] p-[7px_8px] rounded-[8px] bg-[#FFE87A]">
+          <button className=" hidden xs_1:block     font-ff-pop text-[10px] leading-[9px] font-medium text-[#000] p-[7px_8px] rounded-[8px] bg-[#FFE87A]">
             20% discount
           </button>
         </div>
-        <button className=" block xs_1:hidden mx-auto mt-[8px] font-poppins text-[10px] leading-[9px] font-medium text-[#000] p-[7px_8px] rounded-[8px] bg-[#FFE87A]">
+        <button className=" block xs_1:hidden mx-auto mt-[8px] font-ff-pop text-[10px] leading-[9px] font-medium text-[#000] p-[7px_8px] rounded-[8px] bg-[#FFE87A]">
           20% discount
         </button>
         <div
@@ -92,7 +92,7 @@ const Lemon_wares = () => {
           >
             <span
               onClick={() => tabs("tab1")}
-              className="text-[#000] font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer"
+              className="text-[#000] font-ff-pop text-[30px] font-semibold leading-[40px] cursor-pointer"
             >
               Basic
             </span>
@@ -105,7 +105,7 @@ const Lemon_wares = () => {
           >
             <span
               onClick={() => tabs("tab2")}
-              className=" text-[#000] font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer"
+              className=" text-[#000] font-ff-pop text-[30px] font-semibold leading-[40px] cursor-pointer"
             >
               Premium
             </span>
@@ -143,7 +143,7 @@ const Lemon_wares = () => {
           <div className="flex flex-row justify-center flex-wrap  -mx-3 md:pb-[40px] pt-5 md:pt-[50px] overflow-hidden">
             <div className="xs_1:w-1/2 sm:w-4/12   px-3">
               <div data-aos="fade-right" data-aos-duration="2000">
-                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 hover:shadow-crd_sh_1">
+                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 shadow-crd_sh_2 hover:shadow-crd_sh_1">
                   <p className="text-[28px] font-semibold font-ff-pop leading-[25px] text-[#000]">
                     Starter
                   </p>
@@ -219,7 +219,7 @@ const Lemon_wares = () => {
             </div>
             <div className="xs_1:w-1/2 sm:w-4/12   pt-4 xs_1:pt-0 px-3">
               <div data-aos="fade-right" data-aos-duration="2000">
-                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 hover:shadow-crd_sh_1">
+                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 shadow-crd_sh_2 hover:shadow-crd_sh_1">
                   <p className="text-[28px] font-semibold font-ff-pop leading-[25px] text-[#000]">
                     Standard
                   </p>
@@ -295,7 +295,7 @@ const Lemon_wares = () => {
             </div>
             <div className="xs_1:w-1/2 sm:w-4/12 pt-4 sm:pt-0  px-3">
               <div data-aos="fade-left" data-aos-duration="2000">
-                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 hover:shadow-crd_sh_1">
+                <div className="lg:p-[34px_29px_48px_35px] md:p-[25px] p-[15px] border-[1.5px] sm:max-w-[299px] rounded-[15px] border-[#c4c4c4] duration-500 shadow-crd_sh_2 hover:shadow-crd_sh_1">
                   <p className="text-[28px] font-semibold font-ff-pop leading-[25px] text-[#000]">
                     Suprem
                   </p>
@@ -383,10 +383,10 @@ const Lemon_wares = () => {
                   central dashboard.
                 </p>
                 <p className="text-[30px] md:text-[42px] font-ff-pop font-semibold text-[#000] leading-[32px] pb-2 md:pb-[11px]">
-                {isChecked ? "$35.80" : "$9.00"}
+                  {isChecked ? "$35.80" : "$9.00"}
                 </p>
                 <p className="text-[14px] font-[300] font-ff-pop leading-[14px] text-[#000] pb-3 lg:pb-[35px]">
-                {isChecked ? "Per year" : "Per month"}
+                  {isChecked ? "Per year" : "Per month"}
                 </p>
                 <button className="py-1 md:py-[9px] max-w-[245px] w-full hover:border-transparent !bg-[#808080] hover:text-[#fff]  shadow-[inset_18rem_0_0_0_#fff] hover:shadow-[0_0_0_0_inset]  duration-500  border-[2px] border-[#000] rounded-[12px] clear-start leading-[25px] md:leading-[32px] text-[14px] font-ff-pop font-semibold">
                   Choose this Plan
@@ -457,10 +457,10 @@ const Lemon_wares = () => {
                   central dashboard.
                 </p>
                 <p className="md:text-[42px] text-[30px] font-ff-pop font-semibold text-[#000] leading-[32px] pb-[11px]">
-                {isChecked ? "$45.80" : "$12.00"}
+                  {isChecked ? "$45.80" : "$12.00"}
                 </p>
                 <p className="text-[14px] font-[300] font-ff-pop leading-[14px] text-[#000] pb-3 lg:pb-[35px]">
-                {isChecked ? "Per year" : "Per month"}
+                  {isChecked ? "Per year" : "Per month"}
                 </p>
                 <button className="py-1 md:py-[9px] max-w-[245px] w-full hover:border-transparent !bg-[#808080] hover:text-[#fff]  shadow-[inset_18rem_0_0_0_#fff] hover:shadow-[0_0_0_0_inset]  duration-500  border-[2px] border-[#000] rounded-[12px] clear-start leading-[25px] md:leading-[32px] text-[14px] font-ff-pop font-semibold">
                   Choose this Plan
@@ -531,10 +531,10 @@ const Lemon_wares = () => {
                   central dashboard.
                 </p>
                 <p className="text-[30px] md:text-[42px] font-ff-pop font-semibold text-[#000] leading-[32px] pb-[11px]">
-                {isChecked ? "$25.80" : "$7.00"}
+                  {isChecked ? "$25.80" : "$7.00"}
                 </p>
                 <p className="text-[14px] font-[300] font-ff-pop leading-[14px] text-[#000] pb-3  lg:pb-[35px]">
-                {isChecked ? "Per year" : "Per month"}
+                  {isChecked ? "Per year" : "Per month"}
                 </p>
                 <button className="py-1 md:py-[9px] max-w-[245px] w-full hover:border-transparent !bg-[#808080] hover:text-[#fff]  shadow-[inset_18rem_0_0_0_#fff] hover:shadow-[0_0_0_0_inset]  duration-500  border-[2px] border-[#000] rounded-[12px] clear-start leading-[25px] md:leading-[32px] text-[14px] font-ff-pop font-semibold">
                   Choose this Plan

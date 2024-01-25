@@ -18,7 +18,7 @@ const Hero_sec = () => {
                   onClick={() => tabs("tab1")}
                   className={`${
                     first === "tab1" ? "tab_1 " : ""
-                  } font-poppins font-semibold text-[15px] text-[#DBD9D9] mr-[23px] leading-[normal] cursor-pointer`}
+                  } font-ff-pop font-semibold text-[15px] text-[#DBD9D9] mr-[23px] leading-[normal] cursor-pointer`}
                 >
                   Hosting
                 </span>
@@ -26,7 +26,7 @@ const Hero_sec = () => {
                   onClick={() => tabs("tab2")}
                   className={`${
                     first === "tab2" ? "tab_1" : ""
-                  } font-poppins font-semibold text-[15px] text-[#DBD9D9] mr-[18px] leading-[normal] cursor-pointer`}
+                  } font-ff-pop font-semibold text-[15px] text-[#DBD9D9] mr-[18px] leading-[normal] cursor-pointer`}
                 >
                   Domain
                 </span>
@@ -34,7 +34,7 @@ const Hero_sec = () => {
                   onClick={() => tabs("tab3")}
                   className={`${
                     first === "tab3" ? "tab_1" : ""
-                  } font-poppins font-semibold text-[15px] text-[#DBD9D9] mr-[15px] leading-[normal] cursor-pointer`}
+                  } font-ff-pop font-semibold text-[15px] text-[#DBD9D9] mr-[15px] leading-[normal] cursor-pointer`}
                 >
                   SEO
                 </span>
@@ -42,29 +42,29 @@ const Hero_sec = () => {
                   onClick={() => tabs("tab4")}
                   className={`${
                     first === "tab4" ? "tab_1" : ""
-                  } font-poppins font-semibold text-[15px] text-[#DBD9D9] leading-[normal] cursor-pointer`}
+                  } font-ff-pop font-semibold text-[15px] text-[#DBD9D9] leading-[normal] cursor-pointer`}
                 >
                   Email
                 </span>
               </div>
             </div>
             {first === "tab1" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-poppins text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Hosting for Your Website
               </p>
             )}
             {first === "tab2" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-poppins text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Domain for Your Website
               </p>
             )}
             {first === "tab3" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-poppins text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web SEO for Your Website
               </p>
             )}
             {first === "tab4" && (
-              <p className=" mx-auto md:mx-0 text-center md:text-start font-poppins text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
+              <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop text-[30px] 450:text-[37px] 576:text-[43px] min-[800px]:text-[50px] min-[900px]:text-[58px] 992:text-[64px] font-bold leading-[45px] 450:leading-[55px] 576:leading-[62.5px]  min-[900px]:leading-[77.5px] text-[#2E2E2E] mt-[10px] min-[800px]:mt-[30px] max-w-[608px]">
                 Premium Web Email for Your Website
               </p>
             )}
@@ -74,14 +74,14 @@ const Hero_sec = () => {
             </p>
             <div className="flex items-center justify-center md:justify-start pb-[30px] md:pb-0  gap-[24px]">
               <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 hover:border-[#b00000] relative  border border-black group p-2 md:p-3">
-                <span class="relative z-10 text-black leading-[24px] group-hover:text-white text-[14px] duration-500">
+                <span class="relative z-10 text-black font-ff-pop leading-[24px] group-hover:text-white text-[14px] duration-500">
                   Create an Account
                 </span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -right-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500"></span>
               </button>
               <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 hover:border-[#b00000] relative  border border-black group p-2 md:p-3">
-                <span class="relative z-10 text-black leading-[24px] group-hover:text-white text-[14px] duration-500">
+                <span class="relative z-10 text-black font-ff-pop leading-[24px] group-hover:text-white text-[14px] duration-500">
                   Choose your plan
                 </span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>
