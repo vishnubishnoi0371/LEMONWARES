@@ -23,13 +23,13 @@ const Stories = () => {
                 data-aos-duration="2000"
                 className="sm:flex  sm:flex-col sm:self-end"
               >
-                <p className="text-[30px]  text-center md:text-start lg:text-[48px] pt-[40px] self-end font-extrabold pb-2 font-ff-inter leading-[35px] lg:leading-[64px] text-[#18191f] max-w-[465px]">
+                <p className="text-[30px]  text-center md:text-start lg:text-[48px] pt-[40px] self-end font-extrabold mb-2 font-ff-inter leading-[35px] lg:leading-[64px] text-[#18191f] max-w-[465px]">
                   Real Stories from Real Customers
                   <span className="absolute top-[8%] lg:top-[-8%] left-[2%] xl:left-[-18%]">
                     <Story_66 />
                   </span>
                 </p>
-                <p className="text-lg  text-center md:text-start font-normal leading-[32px] text-[#18191f] font-ff-inter pb-[24px] ">
+                <p className="text-lg  text-center md:text-start font-normal leading-[32px] text-[#18191f] font-ff-inter mb-[24px] ">
                   Get inspired by these stories.
                 </p>
               </div>
@@ -46,7 +46,7 @@ const Stories = () => {
                 <div className="flex gap-[16px]">
                   <Small66 />
                   <div>
-                    <p className="text-[16px] font-ff-inter font-normal leading-[22px] lg:leading-[32px] max-w-[254px] lg:pb-3">
+                    <p className="text-[16px] font-ff-inter font-normal leading-[22px] lg:leading-[32px] max-w-[254px] lg:mb-3">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                       aliquam, purus sit amet luctus venenatis, lectus magna
                       fringilla urna, porttitor rhoncus dolor purus non enim

@@ -24,7 +24,7 @@ const My_nav = () => {
         <div className="flex items-center justify-between  pt-[20px] md:pt-[41px]">
           <div className="flex items-center cursor-pointer gap-[30px] lg:gap-[65px]">
             <img src={logo} alt="" />
-            <li className="list-none hidden md:block cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
+            <li className="list-none hidden md:block cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
               <a onClick={view} href="#our">
                 Our Services
               </a>
@@ -37,7 +37,7 @@ const My_nav = () => {
           >
             <span className="flex-col md:flex gap-[50px] lg:gap-[190px]">
               <span className="md:flex  items-center text-center gap-[25px] lg:gap-[33px]">
-                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
+                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic ">
                   <a
                     onClick={view}
                     href="#About"
@@ -46,7 +46,7 @@ const My_nav = () => {
                     About
                   </a>
                 </li>
-                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
+                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic ">
                   <a
                     onClick={view}
                     href="#Blog"
@@ -55,7 +55,7 @@ const My_nav = () => {
                     Blog&News
                   </a>
                 </li>
-                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
+                <li className="list-none mb-4 md:mb-0  cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic ">
                   <a
                     onClick={view}
                     href="#contact"
@@ -64,7 +64,7 @@ const My_nav = () => {
                     Contact
                   </a>
                 </li>
-                <li className="list-none mb-4 block md:hidden cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
+                <li className="list-none mb-4 block md:hidden cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic ">
                   <a
                     onClick={view}
                     href="#our"
@@ -76,7 +76,7 @@ const My_nav = () => {
               </span>
               <div className="block xs_1:hidden">
                 <span className="flex-col text-center items-center gap-[30px] xl:gap-[60px]">
-                  <li className="list-none mb-4 cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic ">
+                  <li className="list-none mb-4 cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic ">
                     {" "}
                     <a
                       onClick={view}
@@ -86,7 +86,7 @@ const My_nav = () => {
                       Account
                     </a>
                   </li>
-                  <li className="list-none flex items-center gap-2 cursor-pointer text-[#000000] text-[16px] font-semibold font-ff-pop leading-normal not-italic ">
+                  <li className="list-none flex items-center gap-2 cursor-pointer text-[#000000] text-[16px] font-semibold font-ff-pop leading-[normal] not-italic ">
                     {" "}
                     <span>
                       <Phone />
@@ -103,15 +103,15 @@ const My_nav = () => {
             </span>
           </ul>
           <div className="hidden xs_1:block">
-            <span className="flex  items-center justify-center gap-[30px] xl:gap-[35px] md:me-[-55px]">
-              <li className="list-none cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
+            <span className="flex  items-center justify-center gap-[30px] xl:gap-[31px] md:me-[-55px]">
+              <li className="list-none cursor-pointer text-[#000000] text-[15px] font-semibold font-ff-pop leading-[normal] not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
                 {" "}
                 <a onClick={view} href="#story">
                   Account
                 </a>
               </li>
-              <hr className="h-[20px] bg-[#c4c4c4] w-[1px]" />
-              <li className="list-none flex items-center gap-2 cursor-pointer text-[#000000] text-[16px] font-semibold font-ff-pop leading-normal not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
+              <hr className="h-[20px] bg-[#dad8d8] w-[1px]" />
+              <li className="list-none flex items-center gap-2 cursor-pointer text-[#000000] text-[16px] font-semibold font-ff-pop leading-[normal] not-italic relative after:absolute after:w-0 after:rounded-[10px] after:h-[2px] after:bg-[#B00000] after:left-[50%] after:bottom-[-4px] hover:after:w-[80%] hover:after:left-[8%] after:duration-300">
                 {" "}
                 <span>
                   <Phone />

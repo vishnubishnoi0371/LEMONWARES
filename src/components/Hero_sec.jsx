@@ -68,13 +68,13 @@ const Hero_sec = () => {
                 Premium Web Email for Your Website
               </p>
             )}
-            <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop md:pb-[60px] pb-[30px] text-[14px] lg:text-base font-normal text-[#808080] leading-[20px] min-[900px]:leading-[28px] tracking-[0.8px] max-w-[448px] mt-[10px] min-[900px]:mt-[34px]">
+            <p className=" mx-auto md:mx-0 text-center md:text-start font-ff-pop md:mb-[60px] mb-[30px] text-[14px] lg:text-base font-normal text-[#808080] leading-[20px] min-[900px]:leading-[28px] tracking-[0.8px] max-w-[448px] mt-[10px] min-[900px]:mt-[34px]">
               Blazing fast web hosting for individuals and businesses of all
               sizes backed by 24x7x365 Support.
             </p>
             <div className="flex items-center justify-center md:justify-start pb-[30px] md:pb-0  gap-[24px]">
-              <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 hover:border-[#b00000] relative  border border-black group p-2 md:p-3">
-                <span class="relative z-10 text-black font-ff-pop leading-[24px] group-hover:text-white text-[14px] duration-500">
+              <button class="cursor-pointer font-normal overflow-hidden rounded-[8px] hover:shadow-btn_hv_1 duration-500 bg-[#b00000] border-[#b00000] relative  border  group p-2 md:p-3">
+                <span class="relative z-10 font-ff-pop leading-[24px] text-white text-[14px] duration-500">
                   Create an Account
                 </span>
                 <span class="absolute w-full h-full bg-[#b00000] border-[#b00000] -left-40  top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>

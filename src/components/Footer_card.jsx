@@ -14,7 +14,7 @@ const Footer_card = () => {
           data-aos-duration="2000"
           className="max-w-[1232px] relative w-full flex flex-col items-center justify-center rounded-[16px] pb-[40px] lg:pb-[87px] bg-[#f7fafe]"
         >
-          <p className="max-w-[900px]  text-center font-ff-pop font-semibold text-[30px] lg:text-[64px] lrading-[50px] lg:leading-[88px] text-[#2e2e2e] pt-8 lg:pt-[80px] pb-[20px] lg:pb-[40px]">
+          <p className="max-w-[900px]  text-center font-ff-pop font-semibold text-[30px] lg:text-[64px] lrading-[50px] lg:leading-[88px] text-[#2e2e2e] pt-8 lg:pt-[80px] mb-[20px] lg:mb-[40px]">
             We're here to make your website awesome.
           </p>
 

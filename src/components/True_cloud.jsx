@@ -51,11 +51,11 @@ const True_cloud = () => {
         data-aos={mycard.aos}
       >
         <div className="flex items-center justify-center">{mycard.svg}</div>
-        <p className="text-xl  font-bold font-ff-pop text-nowrap leading-normal text-center text-[#000] pt-3 pb-1">
+        <p className="text-xl  font-bold font-ff-pop text-nowrap leading-[normal] text-center text-[#000] pt-3 pb-1">
           {mycard.name}
         </p>
         <div className="flex items-center justify-center">
-          <p className="text-[12px] font-[300] font-ff-pop leading-normal max-w-[252px] text-center text-[$000]">
+          <p className="text-[12px] font-[300] font-ff-pop leading-[normal] max-w-[252px] text-center text-[$000]">
             We Keep Your Web build Online 24x7x365. Downtime not only costs you
             lost visitors but also damages your reputation and search engine
             rankings.
@@ -68,7 +68,7 @@ const True_cloud = () => {
     <div>
       <div
         id="About"
-        className="max-w-[1285px] px-3 mx-auto py-[30px] sm:py-[50px] "
+        className="max-w-[1285px] px-3 mx-auto py-[30px] sm:pt-[79px] sm:pb-[50px] "
       >
         <div className="flex flex-row items-center justify-center flex-wrap  -mx-3 overflow-hidden ">
           <div
@@ -76,10 +76,10 @@ const True_cloud = () => {
             data-aos-duration="2000"
             className="md:w-1/2 lg:w-7/12 px-3"
           >
-            <h2 className="font-ff-inter text-center md:text-start text-[30px] lg:text-[48px] pb-4 lg:pb-7 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
+            <h2 className="font-ff-inter text-center md:text-start text-[30px] lg:text-[48px] mb-4 lg:mb-7 font-extrabold leading-[45px] lg:leading-[64px] text-[#18191f]">
               True Cloud Web Hosting
             </h2>
-            <p className=" text-[16px] pb-4 text-center md:text-start lg:text-lg font-ff-inter font-normal md:max-w-[573px] leading-[25px] lg:leading-[32px] text-[#18191f]">
+            <p className=" text-[16px] mb-4 text-center md:text-start lg:text-lg font-ff-inter font-normal md:max-w-[573px] leading-[25px] lg:leading-[32px] text-[#18191f]">
               True Cloud Web Hosting All of the hosting packages we offer are
               deployed instantly on our SSD powered cloud. We don’t use
               dedicated servers that operate on single pieces of hardware. Our
@@ -116,7 +116,7 @@ const True_cloud = () => {
               </div>
               <div className="w-1/2 xs_1:w-1/3 md:w-1/2 lg:w-1/3 px-3  mx-auto">
                 <img
-                  className="max-w-[172px] max-h-[72px]"
+                  className="max-w-[172px] max-h-[72px] md:max-h-[92px]"
                   src={cloud4}
                   alt="#"
                 />
