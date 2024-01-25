@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+* {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_set {
+  width: 100%;
+  height: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 0;
+  right: 100%;
+  background: #f3d9d9;
+  z-index: 5;
+}
+.tab_2 {
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.tab_2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0%;
+  bottom: -6px;
+  background: #b00000;
+  z-index: 1;
+}
+.tab_1{
+  color: #B00000;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.tab_1::after{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  left: 8%;
+  bottom: -5px;
+  background: #B00000;
+  z-index: 1;
+}
+.tab_line::before {
+  content: "";
+  position: absolute;
+  bottom: -3%;
+  width: 100%;
+  height: 4px;
+  background: #b00000;
+}
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  /* The size of the SVG defines the overall size */
+  height: 3em;
+  /* Define the transition for transforming the SVG */
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: #b00000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  /* Define the transition for transforming the Stroke */
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+.tab_clr {
+  color: #b00000;
+}
+
+@media (min-width: 768px) {
+  .nav_set {
+    width: unset;
+    flex-direction: row;
+    height: unset;
+    position: unset;
+    background: transparent;
+    transition: all 350ms linear !important;
   }
 }
